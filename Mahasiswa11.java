@@ -48,5 +48,19 @@ public class Mahasiswa11 {
         mhs1.updateIpk(3.60);
 
         mhs1.tampilkanInformasi();
+        
+        Mahasiswa11 mhs2 = new Mahasiswa11("Annisa Nabila", "2141720160", 3.25, "TI 2L");
+        mhs2.updateIpk(3.30);
+        mhs2.tampilkanInformasi();
+    }
+
+    public Mahasiswa11() {
+        
+    }
+    public Mahasiswa11(String nm, String nim, double ipk, String kls) {
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
     }
 }
